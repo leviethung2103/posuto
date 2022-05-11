@@ -2,7 +2,7 @@ import json
 from operator import index
 import pandas as pd
 
-with open("/home/hunglv/SynologyDrive/EST_Rouge/Onzalink/Code/posuto/posuto/postaldata.json") as file:
+with open("posuto/posuto/postaldata.json") as file:
     data = json.load(file)
     df = pd.DataFrame(data)
 
